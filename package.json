@@ -7,9 +7,9 @@
   "dependencies": {},
   "devDependencies": {
     "prettier": "^2.4.1",
-    "webpack": "^5.65.0",
+    "webpack": "^5.99.9",
     "webpack-cli": "^4.9.1",
-    "wrangler": "^3.36.0"
+    "wrangler": "^4.20.0"
   },
   "scripts": {
     "format": "prettier --write '**/*.{js,css,json,md}'",
