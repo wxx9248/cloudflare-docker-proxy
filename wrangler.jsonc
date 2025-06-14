@@ -29,9 +29,8 @@
      * https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
      */
     "vars": {
-        "CUSTOM_DOMAIN": "example.com",
-        "MODE": "debug",
-        "TARGET_UPSTREAM": "https://registry-1.docker.io"
+        "CUSTOM_DOMAIN": "wxx9248.top",
+        "MODE": "production"
     }
     /**
      * Note: Use secrets to store sensitive data.
