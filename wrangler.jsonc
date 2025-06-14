@@ -31,7 +31,7 @@
     "vars": {
         "CUSTOM_DOMAIN": "wxx9248.top",
         "MODE": "production"
-    }
+    },
     /**
      * Note: Use secrets to store sensitive data.
      * https://developers.cloudflare.com/workers/configuration/secrets/
@@ -48,4 +48,41 @@
      * https://developers.cloudflare.com/workers/wrangler/configuration/#service-bindings
      */
     // "services": [{ "binding": "MY_SERVICE", "service": "my-service" }]
+
+    "routes": [
+        {
+            "pattern": "docker.wxx9248.top",
+            "custom_domain": true
+        },
+        {
+            "pattern": "quay.wxx9248.top",
+            "custom_domain": true
+        },
+        {
+            "pattern": "gcr.wxx9248.top",
+            "custom_domain": true
+        },
+        {
+            "pattern": "k8s-gcr.wxx9248.top",
+            "custom_domain": true
+        },
+        {
+            "pattern": "k8s.wxx9248.top",
+            "custom_domain": true
+        },
+        {
+            "pattern": "ghcr.wxx9248.top",
+            "custom_domain": true
+        },
+        {
+            "pattern": "cloudsmith.wxx9248.top",
+            "custom_domain": true
+        },
+        {
+            "pattern": "ecr.wxx9248.top",
+            "custom_domain": true
+        }
+    ],
+
+    "workers_dev": false
 }
