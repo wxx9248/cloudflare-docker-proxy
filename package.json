@@ -9,17 +9,18 @@
     "scripts": {
         "deploy": "wrangler deploy",
         "dev": "wrangler dev",
+        "build": "wrangler deploy --dry-run",
         "start": "wrangler dev",
         "test": "vitest",
         "cf-typegen": "wrangler types",
         "format": "prettier --write ."
     },
     "devDependencies": {
-        "@cloudflare/vitest-pool-workers": "^0.8.38",
-        "prettier": "^3.5.3",
-        "typescript": "^5.8.3",
-        "vitest": "~3.2.3",
-        "wrangler": "^4.20.0"
+        "@cloudflare/vitest-pool-workers": "^0.8.61",
+        "prettier": "^3.6.2",
+        "typescript": "^5.9.2",
+        "vitest": "~3.2.4",
+        "wrangler": "^4.28.1"
     },
     "license": "MIT",
     "main": "src/index.ts"
