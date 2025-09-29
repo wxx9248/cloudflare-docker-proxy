@@ -21,8 +21,8 @@ importers:
         specifier: ~3.2.4
         version: 3.2.4
       wrangler:
-        specifier: ^4.40.1
-        version: 4.40.1
+        specifier: ^4.40.2
+        version: 4.40.2
 
 packages:
 
