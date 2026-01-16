@@ -20,7 +20,7 @@
         "prettier": "^3.8.0",
         "typescript": "^5.9.3",
         "vitest": "~4.0.17",
-        "wrangler": "^4.59.1"
+        "wrangler": "^4.59.2"
     },
     "license": "MIT",
     "main": "src/index.ts"
