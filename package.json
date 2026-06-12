@@ -16,7 +16,7 @@
         "format": "prettier --write ."
     },
     "devDependencies": {
-        "@cloudflare/vitest-pool-workers": "^0.16.14",
+        "@cloudflare/vitest-pool-workers": "^0.16.15",
         "prettier": "^3.8.4",
         "typescript": "^6.0.3",
         "vitest": "~4.1.8",
